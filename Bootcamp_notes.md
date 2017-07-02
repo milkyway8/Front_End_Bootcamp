@@ -5,7 +5,7 @@
 **1. Envirorment set up**
 
     a. Install Git
-    b. SSH keys configuration
+    b. SSH key configuration
     c. Install a text editor
     d. Install node.js
 ___
@@ -20,7 +20,13 @@ ___
 - execute the bash command `ssh-keygen`
 - create a gitHub account
 - execute the bash command `cat ~/ .ssh/id_rsa.pub`
-- enter a key label and public key into your gitHub SSH keys.
+- enter a key label and the public key into your gitHub SSH keys
+
+---
+
+**c. Install a text editor:** due to the fact that we would need to write code at some point, is useful to employ a text editor instead of an IDE.
+
+
 
 
 
