@@ -1,3 +1,7 @@
+![alt text][id]
+
+[id]: https://www.google.com/search?q=grayscale&client=firefox-b-ab&biw=1366&bih=659&tbm=isch&source=lnt&tbs=isz:ex,iszw:1366,iszh:768#q=header&tbs=iszw:1366,iszh:768,isz:l&tbm=isch&imgrc=hpwSyLSfAYsgQM:
+
 ## *FRONT END BOOTCAMP NOTEBOOK*
 ### First week. Day 1. 
 
@@ -12,6 +16,7 @@
 **2. Getting started with Webtask.io**
 
     a. Getting use to Webtask
+    b. Exercise #1
     
 #### 1. ENVIORMENT SET UP
 ___
@@ -38,7 +43,12 @@ Each deployed code will run under a sandbox with some limitations such as limite
 - Create a Wentask account
 - Install the Webtask command line application `npm install wt-cli`
 - Initialize sesion `wt init your_email@something.com`
-- Play with Webtask `wt edit`
+- Play with Webtask `wt -h` to see the commands available
+___
+
+**b. Exercise #1**
+
+Create a miniservice in webtask.
 
 ### First Week. Day 2.
 
@@ -51,6 +61,7 @@ Each deployed code will run under a sandbox with some limitations such as limite
 #### 1. MARKDOWN SINTAXIS
 ---
 Markdown  is a lightweight markup langugage with plain text formatting syntax, intended to be easy to read and easy to write.
+(https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html#Markdownsyntaxguide-Inlinecodecharacters)
 ___
 #### 2. BASH BASIC COMMANDS
 
@@ -100,12 +111,119 @@ move to next command
 
 ### First week. Day 3.
 
-### First week. Day 4.
+Basic HTML
+
+Webpage structure 
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Metadata goes here-->
+    </head>
+    <body>
+        <!--Contet goes here-->
+    </body>
+</html>
+```
+    
+Comments on HTML  
+`<!--This is a comment-->`
+
+
+
+
+
+
+
+### First week. Day 4
+
+Basic CSS
+
 
 ### First week. Day 5.
 
-CSS game on:  
-CSS layout documentation on: 
+CSS game on: (http://flukeout.github.io/)  
+CSS layout documentation on: (http://learnlayout.com/)
+
+### Second week. Day 6.
+
+Topics
+
+
+### 1. Scrum methodology
+- Proyecto final (hacer un peach): puede ser una landing page
+- Concepto MVP (minimum viable product) ---> landing page
+    
+### 2. CCS Floats
+- flexbox froggy (preview javascrit)
+
+### 3. Javascript
+
+Una variable es una caja que tiene un nombre empleada para almacenar algun tipo de dato. En javascript hay varios tipos de datos nativos, como numeros, strings, booleano. Javascript no es un lenguaje fuertemente tipado.
+
+Un algoritmo es una receta para realizar determinada tarea.
+Una funcion es una maquina que recibe una entrada y arroja una salida.
+
+`type of var` gives the var type  
+`var suma = 2 + 5` make operations within the declaration  
+`var a` undefined variable  
+`var lista = []` define an array  
+define an object
+```
+var human = {
+    eyes: "blue",
+    skin: "white",
+    age: 20,
+    isOlder:false,
+    city: Medellin,
+    country:Colombia,
+}
+```
+
+`human.eyes or human["eyes"]`
+
+```
+var context{
+    .query{
+        name = 'David'
+        pet = 'Dog'
+    }
+}
+```
+
+Definir una funcion
+```
+function suma(x + y){
+    return x + y;
+}
+```
+`suma();`  
+`var miSuma = suma(5, 2);`  
+`var Suma = suma();`
+
+```
+var humano = {
+    nombre: 'Guillermo'
+    caminar: function(){
+        consolo.log('Caminando...');
+    },
+    sumar: function(x,y){
+        return x + y;
+    }
+}
+```
+`humano.sumar(3,6)`  
+`humano.caminar()`
+
+
+
+    
+
+
+
+
+
+
 
 
 
