@@ -1,6 +1,6 @@
-![alt text][id]
+![alt text](https://img.purch.com/h/1000/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAzNy8wOTMvb3JpZ2luYWwva2FuZ2Fyb28uanBn)
 
-[id]: https://www.google.com/search?q=grayscale&client=firefox-b-ab&biw=1366&bih=659&tbm=isch&source=lnt&tbs=isz:ex,iszw:1366,iszh:768#q=header&tbs=iszw:1366,iszh:768,isz:l&tbm=isch&imgrc=hpwSyLSfAYsgQM:
+
 
 ## *FRONT END BOOTCAMP NOTEBOOK*
 ### First week. Day 1. 
