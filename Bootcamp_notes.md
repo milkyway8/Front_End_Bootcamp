@@ -215,19 +215,143 @@ var humano = {
 `humano.sumar(3,6)`  
 `humano.caminar()`
 
+### Second week. Day 7.
+___
+**TOPICS**
+
+- Javascript in depth
+- Random Concepts
+
+---
+
+**JAVASCRIPT IN DETH:** the current class session is related to the explanation of different kind of structures and statements allowed in javascript to perform a particular task, in some cases there are code examples attach to them. This information is based on [**_Kyle Simpson's book series You Dont Know JS_**](https://github.com/getify/You-Dont-Know-JS).
 
 
-    
+- _Variable declaration_
+- _Console.log()_
+- _Prompt_
+- _Operators_
+- _String literal_
+- _Thruty and falsy values_
+- _Logical operators_
+- _Values and types_
+- _Comments_
+- _Blocks_
+- _Statements_
+- _Cycles_
+- _Scope_
+- _Objects_
+- _Closure_
+- _setTimeOut function_
+
+
+**Codes**
+
+>functions and if statement
+
+```
+This function returns an age clasification.
+
+function calcularEdad(age){
+if(age<18){
+    console.log("is underage");
+}else if(age>=18 && age<60){
+    console.log("is overage");
+}else(age>=60){
+    console.log("is odler");
+}
+}
+```
+>while and do while cycles
+
+```
+while(sillasSinOrganizar){
+    console.log('Hay que organizar las sillas');
+    sillasSinOrganizar = sillasSinOrganizar - 1;
+}
+```
+  
+```
+do{
+    console.log('Hay que organizar las sillas');
+    sillasSinOrganizar = sillasSinOrganizar - 1;
+}while(sillasSinOrganizar)
+```
+>Scopes
+
+```
+var a = "Hola"
+function despedir(){
+    var a = "Adios"
+}
+despedir()-->"Hola"
+```
+>Closures
+
+```
+fuction agregar10(){
+return function agregar(y){
+    return y + 10;
+}
+}   
+
+var m = agregar10();
+```
+
+
+```
+function sumaParcial(x){
+return function suma(y){
+    return x + y;
+}
+}
+
+var n = sumaParcial(20);
+var m = sumaParcial(10);
+ 
+n(5); --> 25
+m(5); --> 
+```
+>setTimeOut function
+
+`setTimeOut(function,valor en milisegundos)`
+```
+for(var i = 0; i < 10; i++) {
+setTimeout(function(x) { return function() { console.log(x); }; }(i), 1000);
+}
+```
+
+Exercise
+
+```
+function imprimirBalance(balance){  
+// Imprimir balance 
+} 
+function retirarDinero(dinero){
+// Solo puede retirar dinero si es menor que el balance 
+} 
+function transferir(balance, balance2){
+// transferir balance a otro balance2 
+}
+function imprimirBalance2 (balance2){
+// Imprimir el balance2 
+}
+function retirarTodoMiDinero(){
+// Retirar de 100 en 100
+}
+```
 
 
 
 
+**RAMDON CONCEPTS**
 
+- _Speudocode_
+- _API's_
+- _Programming languages clasification: compiled or interpreted_
+- _Reverse polish notation_
+- _Numeral system (duodecimal)_
+- _Javascript in HTML_: javscript se incluye en html con un tag que se llama script y se pasa al    src, incluirlo  antes del cuerpo. minuto 1:45. audio. Document object model: modificar          estilos desde javasrcipt.
+- _EMAscript browser supported versions_
 
-
-
-
-
-
-    
 
