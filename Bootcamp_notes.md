@@ -1,4 +1,4 @@
-![alt text](https://img.purch.com/h/1000/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAzNy8wOTMvb3JpZ2luYWwva2FuZ2Fyb28uanBn)
+![alt text]()
 
 
 
@@ -62,6 +62,7 @@ Create a miniservice in webtask.
 ---
 Markdown  is a lightweight markup langugage with plain text formatting syntax, intended to be easy to read and easy to write.
 (https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html#Markdownsyntaxguide-Inlinecodecharacters)
+(https://sourceforge.net/p/s-notes/wiki/markdown_syntax/)
 ___
 #### 2. BASH BASIC COMMANDS
 
@@ -119,9 +120,38 @@ Webpage structure
 <html>
     <head>
         <!--Metadata goes here-->
+        <!--Refers to all configuration commmands-->
+        
     </head>
     <body>
         <!--Contet goes here-->
+        
+        <!--Headings-->
+        <h> Heading goes here </h>
+        <!--Paragraphs-->
+        <p> Paragraph goes here </p>
+        <!--Lists-->
+            <!--Unordered list-->
+            <ul>
+                <li> List element here </li>
+                <li> List element here </li>
+            </ul>
+            <!--Ordered list-->
+            <ol>
+                <li> List element here </li>
+                <li> List element here </li>
+            </ol>
+        <!--Emphasis elements-->
+            <!--Bold-->
+            <strong> Here goes the element </strong>
+            <!--Italic-->
+            <em> Here goes the element </em>
+        <!--Empty element-->
+            Its an element that can not have any child nodes, using a closing tag on an empty element is invalid. To identify empty element types review ```[MDN Empty element glosary](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)```
+        
+        
+        
+        
     </body>
 </html>
 ```
@@ -215,7 +245,7 @@ var humano = {
 `humano.sumar(3,6)`  
 `humano.caminar()`
 
-### Second week. Day 7.
+### Second week. Day 7. Almost Done
 ___
 **TOPICS**
 
@@ -341,9 +371,6 @@ function retirarTodoMiDinero(){
 }
 ```
 
-
-
-
 **RAMDON CONCEPTS**
 
 - _Speudocode_
@@ -354,4 +381,101 @@ function retirarTodoMiDinero(){
 - _Javascript in HTML_: javscript se incluye en html con un tag que se llama script y se pasa al    src, incluirlo  antes del cuerpo. minuto 1:45. audio. Document object model: modificar          estilos desde javasrcipt.
 - _EMAscript browser supported versions_
 
+### Second Week. Day 3.
 
+1. General Talk. Till 10.
+
+    - DOM
+
+2. Last class topics review
+
+    - Closure: the ability to store parameters. Emulate private methods cause javascript does not support private methods.
+    - setTimeOut example (it returns an id that belongs to setTimeOut function), we pass as parameters the declaration of a fuction and
+    time in miliseconds. If we pass a function it executes the fucntion before the time finish.
+    - A closure is a function declaration within a fuction declaration.
+    - You can asing a function to a variable
+    
+    ```
+    var myFunction = function myFunction(){
+    console.log();
+    }
+    ```
+    
+    - Inmedialy invoked fuction expression
+    ```    
+    (function myFunction(name){
+    console.log('This is my fuction' + name)
+    }('Guillermo'));
+    ```
+    
+    - Four parameter closure
+    ```    
+    fucntion makeAdder(x,n){
+    function add(y,m){
+    return x + y + m + n;
+    return add;
+    }
+    }
+    ```
+    
+    - The meaning of this
+    ```
+    var House = {
+    door: 0,
+    openDoor: function() {
+    console.log('this in openDoor', )
+    var that = this;
+    this.door = 1;
+
+    function openAgain() {
+    console.log('this en openAgain',this)
+    this.door += 1;
+    that.door += 1; 
+    }
+
+    openAgain();
+    }
+    };
+    ```
+    
+    ```
+    function foo() {
+    console.log( this.bar );
+    }
+
+    var bar = "global";
+
+    var obj1 = {
+    bar: "obj1";
+    foo: foo;
+    };
+
+    var obj2 = {
+    bar: "obj2";
+    };
+
+    ```
+    
+    
+    - Objeto window
+    
+    Javascripting is a library 
+    `npm install -g javascripting`
+    
+    - nodeschool
+    - callback
+    ```
+    var saludar = function(nombre){
+    consolo.log("Hola",nombre);
+    }
+    ```
+    ```
+    function llamarCallback(cb){
+    var nombres = ['Guillo','Luisa','Jorge'];
+    for(var i=0;i<nombres.length;i++){
+    cb(nombres[i]);
+    }
+    }
+    llamarCallback(saludar);
+    llamarCallback(console.log);
+    ```
