@@ -3,7 +3,7 @@
 
 
 ## *FRONT END BOOTCAMP NOTEBOOK*
-### First week. Day 1. 
+### First week. Day 1. ready
 
 #### Topics
 **1. Envirorment set up**
