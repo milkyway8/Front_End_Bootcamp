@@ -115,7 +115,7 @@ ___
 **1. Basic HTML**
 
     a. Webpage structure
-    b. Metada configuration
+    b. Metadata configuration
     c. Webpage contest
 ___
 **1. BASIC HTML**
@@ -169,22 +169,18 @@ ___
         
     b. HTML attributes
     c. HMTL entities
-    
-**Comments**
+___
 
-```     
-`<!--This is a comment-->`
-```
+**a. HTML ELEMENTS**
 
-**Headings**
-
+- **Headings**
 ```
 <body>
     <h> Heading goes here </h>
 </body>
 ```
 
-**Paragraphs**
+- **Paragraphs**
 
 ```
 <body>
@@ -192,7 +188,7 @@ ___
 </body>
 ```
 
-**Lists**
+- **Lists**
 
 ```
 <body>
@@ -209,7 +205,7 @@ ___
 </body>
 ```
 
-**Emphasis elements**
+- **Emphasis elements**
 
 ```
 <body>
@@ -220,11 +216,11 @@ ___
 </body>
 ```
 
-**Empty elements**
+- **Empty elements**
 
 An **empty element** can not have any child nodes, using a closing tag on an empty element is invalid. To identify empty element types review [MDN Empty element glosary](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
 
-**Links**
+- **Links**
 
 ```
 <body>
@@ -235,16 +231,15 @@ An **empty element** can not have any child nodes, using a closing tag on an emp
 </body>
 ```
 
-**Images**
+- **Images**
 
 ```
 
 ```
 
-**HTML attributes**
+**b. HTML ATTRIBUTES**
 
-**HTML entities**
-
+**c. HTML ENTITIES**
 ___
 
 ![Friday](/images/friday.png)

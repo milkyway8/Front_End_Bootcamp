@@ -2,7 +2,7 @@
 
 ## MARKDOWN
 
-- [Bootcamp notes](Bootcamp_notes.md)
+- [Bootcamp notes](bootcamp_notes)
 - [Curriculum vitae](Curriculum_vitae.md)
 
 ## HTML
