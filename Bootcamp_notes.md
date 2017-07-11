@@ -239,7 +239,130 @@ color: #FF0000;
 
 **A CSS rule-set** consists of a selector and a declaration block, the selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons. Each declaration includes a **CSS property name and a value**, separated by a colon. A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
 
-![CSS syntax](/images/cssrule.png =200x100)
+![CSS syntax](/images/cssrule.png)
+
+**Multiple properties**
+
+```
+body {
+  color: #414141;               /* Dark gray */
+  background-color: #EEEEEE;    /* Light gray */
+}
+```
+
+**Multiple elements**
+
+```
+body {
+  color: #414141;               /* Dark gray */
+  background-color: #EEEEEE;    /* Light gray */
+}
+
+h1 {
+  font-size: 36px;
+}
+
+```
+
+**Selecting multiple elements**
+
+```
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+```
+
+**List styles**
+
+```
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+```
+
+**Text styles**
+
+- Underlines
+- Text Alignment
+- Font Weight
+- Font Style
+
+
+**The cascade**
+
+- The browser’s default stylesheet
+- User-agent’s stylesheets
+- External stylesheets
+- Page-specific styles
+- Inline styles
+
+
+
+
+**LINKING A CSS STYLESHEET**
+
+```
+<head>
+    <link rel='stylesheet' href=main.css'/>
+</head>
+```
+
+**Multiple stylesheets**
+
+```
+<head>
+  <link rel='stylesheet' href='styles.css'/>
+  <link rel='stylesheet' href='product.css'/>
+</head>
+```
+
+**BLOCK ELEMENTS AND INLINE ELEMENTS**
+
+Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
+
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
+
+An inline element does not start on a new line and only takes up as much width as necessary.
+
+**OTROS**
+
+- content
+- padding 
+- border
+- margin
+
+**GENERIC BOXES**
+
+`<div> </div>`
+
+**RESETING STYLES**
+
+```
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
+
+**CSS SELECTORS**
+
+**CSS Specificity**
+
+**CSS COMMENTS**
+```
+/*This is a CSS comment*/
+```
+
+**MEASUREMENT UNITS**
+
+px
+em
+
 
 
 ### First week. Day 5. ready
@@ -251,6 +374,7 @@ color: #FF0000;
 
 Topics
 
+CSS floats
 Javascript basic introduction
 
 
