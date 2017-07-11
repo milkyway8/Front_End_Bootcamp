@@ -5,7 +5,7 @@
 ![Tuesday](/images/tuesday.png)
 
 
-#### Topics
+## TOPICS
 **1. Envirorment set up**
 
     a. Install Git
@@ -17,7 +17,8 @@
 
     a. Getting use to Webtask
     b. Exercise #1
-    
+
+---    
 #### 1. ENVIORMENT SET UP
 ___
 
@@ -34,6 +35,7 @@ ___
 
 **d. Install Node.js:** Node.js is a JavaScript runtime build on Chrome's V8 engine.It uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. We install the Windows 6.11.0 version.
 
+---
 #### 2. GETTING STARTED WITH WEBTASK.IO
 ___
 
@@ -44,20 +46,20 @@ Each deployed code will run under a sandbox with some limitations such as limite
 - Install the Webtask command line application `npm install wt-cli`
 - Initialize sesion `wt init your_email@something.com`
 - Play with Webtask `wt -h` to see the commands available
-___
 
 **b. Exercise #1**
 
 Create a miniservice in webtask.
+___
 
 ![Wednesday](/images/wednesday.png)
 
-#### Topics
+## TOPICS
 
 **1. Markdown sintaxis**  
 **2. Git Bash basic commands**  
 **3. Create remote repository**  
-
+___
 #### 1. MARKDOWN SINTAXIS
 ---
 Markdown  is a lightweight markup langugage with plain text formatting syntax, intended to be easy to read and easy to write.
@@ -65,6 +67,7 @@ Markdown  is a lightweight markup langugage with plain text formatting syntax, i
 (https://sourceforge.net/p/s-notes/wiki/markdown_syntax/)
 ___
 #### 2. BASH BASIC COMMANDS
+___
 
 **COMMAND**           |  **PERFORMED ACTION**
 :---------------------|:----------------------
@@ -91,6 +94,7 @@ ___
 
 ---
 #### 3. REMOTE REPOSITORY
+___
 
 - git add file
 - git commit -m "commit name"
@@ -100,10 +104,11 @@ ___
 - git push u- origin master
 - git pull origin master
 
+___
 
 ![Thursday](/images/thursday.png)
 
-#### Topics
+## Topics
 
 - Basic html
 
