@@ -1,0 +1,10 @@
+{
+    "Humans": [
+        {"name":"Susan","age":"20","pets":"{cat,crocodile}","friends":"false","friendlist":"{}"},
+            {"name":"Daniel","age":"15","pets":"{dog}","friends":"true","friendlist":"{Karina,Carlos,Juan}"},
+                {"name":"Tatiana","age":"40","pets":"{}","friends":"true","friendlist":"Ana"},
+                    {"name":"Edgar","age":"25","pets":"{kangaroo,armadilo}","friends":"false","friendlist":"{}"},
+                        {"name":"Catalina","age":"12","pets":"{}","friends":"true","friendlist":"{Santigo,Fabio,Raul}"}
+    ]
+    
+}
