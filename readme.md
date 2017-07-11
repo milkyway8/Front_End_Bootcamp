@@ -8,6 +8,6 @@
 ## HTML
 
 - [HTML Source Curriculum vitae](Curriculum_vitae.html)
-- [HTML Preview Curriculum vitae](https://milkyway8.github.io/Front_End_Bootcamp/)
+- [HTML Preview Curriculum vitae](file:///C:/Users/Usuario/Desktop/frontend_2k17/Bootcamp/Curriculum_vitae.html)
 
 ## HTML + CSS
