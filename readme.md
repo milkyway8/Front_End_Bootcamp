@@ -15,5 +15,5 @@
 
 ## CODING
 
-- [BANK ACCOUNT FUNCTIONS](docs)
-- [HUMANS JSON STRUCTURE](docs)
+- [Bank account functions](docs)
+- [Humans json structure](docs)
