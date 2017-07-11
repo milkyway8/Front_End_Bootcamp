@@ -1,6 +1,9 @@
 ![Bootcamp Header](/images/bootcamp_header.png)
 
-### First week. Day 1. ready
+
+
+![Tuesday](/images/tuesday.npg)
+
 
 #### Topics
 **1. Envirorment set up**
