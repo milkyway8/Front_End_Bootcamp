@@ -3,10 +3,10 @@
 ## MARKDOWN
 
 - [Bootcamp notes](Bootcamp_notes.md)
-- [Curriculum_vitae](Curriculum_vitae.md)
+- [Curriculum vitae](Curriculum_vitae.md)
 
 ## HTML
 
-- [HTML_Curriculum_vitae](Curriculum_vitae.html)
+- [HTML Curriculum vitae](Curriculum_vitae.html)
 
 ## HTML + CSS
