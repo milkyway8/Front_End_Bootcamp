@@ -50,7 +50,7 @@ ___
 
 Create a miniservice in webtask.
 
-### First Week. Day 2. ready
+![Wednesday](/images/wednesday.png)
 
 #### Topics
 
@@ -101,7 +101,7 @@ ___
 - git pull origin master
 
 
-### First week. Day 3. almost ready.
+![Thursday](/images/thursday.png)
 
 #### Topics
 
@@ -219,7 +219,8 @@ An **empty element** can not have any child nodes, using a closing tag on an emp
 **HTML entities**
 
 
-### First week. Day 4
+![Friday](/images/friday.png)
+
 ___
 #### Topics
 
