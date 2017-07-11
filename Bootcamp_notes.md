@@ -239,7 +239,7 @@ color: #FF0000;
 
 **A CSS rule-set** consists of a selector and a declaration block, the selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons. Each declaration includes a **CSS property name and a value**, separated by a colon. A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
 
-![CSS syntax](/images/cssrule.png)
+![CSS syntax](/images/cssrule.png =200x100)
 
 
 ### First week. Day 5. ready
