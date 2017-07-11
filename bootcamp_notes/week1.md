@@ -110,12 +110,18 @@ ___
 
 ![Thursday](/images/thursday.png)
 
-## Topics
+## TOPICS
 
-**1. Basic html**
+**1. Basic HTML**
+
+    a. Webpage structure
+    b. Metada configuration
+    c. Webpage contest
+___
+**1. BASIC HTML**
 ___
 
-**1. BASIC HTML WEBPAGE STRUCTURE**
+**1.1 WEBPAGE STRUCTURE**
 
 ```
 <!DOCTYPE html>
@@ -130,7 +136,8 @@ ___
 </html>
 ```
 
-**METADATA CONFIGURATION**
+---
+**1.2 METADATA CONFIGURATION**
 
 ```  
 <head>
@@ -146,10 +153,23 @@ ___
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-```  
+```
 
-**WEBPAGE CONTEST**
+___
+**1.3 WEBPAGE CONTEST**
 
+    a. HTML elements
+        - headings
+        - paragraphs
+        - lists
+        - emphasis elements
+        - empty elements
+        - links
+        - images
+        
+    b. HTML attributes
+    c. HMTL entities
+    
 **Comments**
 
 ```     
@@ -375,9 +395,11 @@ An inline element does not start on a new line and only takes up as much width a
 px
 em
 
-
+___
 
 ![Saturday](/images/saturday.png)
+
+## TOPICS
 
 - [CSS selector game](http://flukeout.github.io/)  
 - [CSS layout documentation](http://learnlayout.com/)
