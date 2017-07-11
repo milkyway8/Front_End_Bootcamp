@@ -2,7 +2,7 @@
 
 
 
-![Tuesday](/images/tuesday.npg)
+![Tuesday](/images/tuesday.png)
 
 
 #### Topics
