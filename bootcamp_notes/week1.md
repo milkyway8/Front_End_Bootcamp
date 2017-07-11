@@ -1,4 +1,4 @@
-![Bootcamp Header](/images/header.png)
+![Bootcamp Header](/images/bootcamp_header.png)
 
 ### First week. Day 1. ready
 
