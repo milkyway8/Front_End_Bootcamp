@@ -1,6 +1,6 @@
 ![Bootcamp Header](/images/bootcamp_header.png)
 
-
+---
 
 ![Tuesday](/images/tuesday.png)
 
