@@ -56,18 +56,20 @@ ___
 
 ## TOPICS
 
-**1. Markdown sintaxis**  
-**2. Git Bash basic commands**  
-**3. Create remote repository**  
+**1. Markdown sintaxis**
+    
+    a. Definition
+    b. Basic commands
+     
+**2. Remote repository**  
 ___
 #### 1. MARKDOWN SINTAXIS
 ---
-Markdown  is a lightweight markup langugage with plain text formatting syntax, intended to be easy to read and easy to write.
-(https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html#Markdownsyntaxguide-Inlinecodecharacters)
-(https://sourceforge.net/p/s-notes/wiki/markdown_syntax/)
-___
-#### 2. BASH BASIC COMMANDS
-___
+**a. Definition**
+
+Markdown  is a lightweight markup langugage with plain text formatting syntax, intended to be easy to read and easy to write. (https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html#Markdownsyntaxguide-Inlinecodecharacters) (https://sourceforge.net/p/s-notes/wiki/markdown_syntax/)
+
+**b. Basic commands**
 
 **COMMAND**           |  **PERFORMED ACTION**
 :---------------------|:----------------------
@@ -110,10 +112,10 @@ ___
 
 ## Topics
 
-- Basic html
+**1. Basic html**
+___
 
-
-**BASIC HTML WEBPAGE STRUCTURE**
+**1. BASIC HTML WEBPAGE STRUCTURE**
 
 ```
 <!DOCTYPE html>
@@ -223,14 +225,17 @@ An **empty element** can not have any child nodes, using a closing tag on an emp
 
 **HTML entities**
 
+___
 
 ![Friday](/images/friday.png)
 
 ___
-#### Topics
+## TOPICS
 
-- Basic CSS
+**1. Basic CSS**
 ___
+
+**1. BASIC CSS STYLESHEET**
 
 **CSS STYLESHEET**
 
