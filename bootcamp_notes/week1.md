@@ -226,9 +226,9 @@ An **empty element** can not have any child nodes, using a closing tag on an emp
 
 ```
 
-**b. HTML ATTRIBUTES**
+**b. HTML attributes**
 
-**c. HTML ENTITIES**
+**c. HTML entities**
 ___
 
 ![Friday](/images/friday.png)
@@ -300,4 +300,6 @@ ___
 
 - [CSS selector game](http://flukeout.github.io/)  
 - [CSS layout documentation](http://learnlayout.com/)
+---
 
+![Bootcamp Header](/images/bootcamp_header.png)
