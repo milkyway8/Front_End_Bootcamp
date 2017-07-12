@@ -79,3 +79,25 @@ Retrieving Elements
 Selecc an element on CSS we use # 
 
 trygit..practice git commands
+___
+
+![Tuesday](/iamges/tuesday.pgn)
+
+## TOPICS
+
+**1. Training**
+
+    a. DOM
+    b. git
+    c. flexbox
+___
+We saw classes schedule in trello, and talk about it.
+Doubt. hwo to open a file from bash. cat fielname. start namefile
+vainilla
+
+**1. TRAINING**
+___
+ try git hub.io
+
+
+

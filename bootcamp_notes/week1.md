@@ -67,32 +67,22 @@ ___
 ---
 **a. Definition**
 
-Markdown  is a lightweight markup langugage with plain text formatting syntax, intended to be easy to read and easy to write. (https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html#Markdownsyntaxguide-Inlinecodecharacters) (https://sourceforge.net/p/s-notes/wiki/markdown_syntax/)
+Markdown  s a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name.[8] Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. Go ahead an learn about [Markdown syntax](https://sourceforge.net/p/s-notes/wiki/markdown_syntax/).
 
 **b. Basic commands**
 
-**COMMAND**           |  **PERFORMED ACTION**
-:---------------------|:----------------------
-**`ls`**              |  _list current dir contest_
-**`ls l`**            |  _list current dir contest long format_
-**`ls -a`**           |  _list current dir contest including hidden_
-**`cd`**              |  _change to home dir_  
-**`cd d`**            |  _change to directory dir_
-**`pwd`**             |  _show current dir_
-**`cd -`**            |  _change to previous working dir_
-**`mkdir d`**         |  _make directory dir_
-**`touch fl`**        |  _make or update a file fl_
-**`rm -r d`**         |  _remove directory dir_
-**`rm -rf d`**        |  _remove directory dir force_
-**`rm fl`**           |  _remove fl_
-**`rm -f fl`**        |  _remove file force_
-**`cp d1 d2`**        |  _copy dir1 to dir2_
-**`cp fl1 fl2`**      |  _copy fl1 to fl2_
-**`mv fl1 fl2`**      |  _rename or move fl1 to fl2_
-**`more fl`**         |  _output file fl_ 
-**`ctrl + u`**        |  _erase line_
-**`up`**              |  _move to previous command_
-**`down`**            |  _move to next command_
+**COMMAND**           |  **PERFORMED ACTION**                        |  | **COMMAND**          |**PERFORMED ACTION**
+:---------------------|:---------------------------------------------|--|----------------------|-------------------------------
+**`ls`**              |  _list current dir contest_                  |  |**`rm -rf d`**        |  _remove directory dir force_
+**`ls l`**            |  _list current dir contest long format_      |  |**`rm fl`**           |  _remove fl_
+**`ls -a`**           |  _list current dir contest including hidden_ |  |**`rm -f fl`**        |  _remove file force_
+**`cd`**              |  _change to home dir_                        |  |**`cp d1 d2`**        |  _copy dir1 to dir2_   
+**`cd d`**            |  _change to directory dir_                   |  |**`cp fl1 fl2`**      |  _copy fl1 to fl2_   
+**`pwd`**             |  _show current dir_                          |  |**`mv fl1 fl2`**      |  _rename or move fl1 to fl2_
+**`cd -`**            |  _change to previous working dir_            |  |**`more fl`**         |  _output file fl_ 
+**`mkdir d`**         |  _make directory dir_                        |  |**`ctrl + u`**        |  _erase line_
+**`touch fl`**        |  _make or update a file fl_                  |  |**`up`**              |  _move to previous command_
+**`rm -r d`**         |  _remove directory dir_                      |  |**`down`**            |  _move to next command_
 
 ---
 #### 3. REMOTE REPOSITORY
@@ -101,7 +91,6 @@ ___
 - git add file
 - git commit -m "commit name"
 - git log 
-
 - git remote add origin url
 - git push u- origin master
 - git pull origin master
@@ -121,7 +110,7 @@ ___
 **1. BASIC HTML**
 ___
 
-**1.1 WEBPAGE STRUCTURE**
+**1.1. WEBPAGE STRUCTURE**
 
 ```
 <!DOCTYPE html>
@@ -137,7 +126,7 @@ ___
 ```
 
 ---
-**1.2 METADATA CONFIGURATION**
+**1.2. METADATA CONFIGURATION**
 
 ```  
 <head>
@@ -156,7 +145,7 @@ ___
 ```
 
 ___
-**1.3 WEBPAGE CONTEST**
+**1.3. WEBPAGE CONTEST**
 
     a. HTML elements
         - headings
@@ -248,147 +237,60 @@ ___
 ## TOPICS
 
 **1. Basic CSS**
+
+    a. CSS concepts
+    b. CSS syntax
+    c. CSS selectors
+    d. CSS specificity
+___
+**1. BASIC CSS**
 ___
 
-**1. BASIC CSS STYLESHEET**
+**a. CSS concepts**
 
-**CSS STYLESHEET**
+**A CSS rule-set** consists of a selector and a declaration block, the selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons. Each declaration includes a **CSS property name and a value**, separated by a colon. A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces. 
+
+![CSS syntax](/images/cssrule.png)
+
+
+**Every HTML element** has a default display value depending on what type of element it is. The default display value for most elements is **block or inline**. **A block-level element** always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can). **An inline element** does not start on a new line and only takes up as much width as necessary.
+
+**b. CSS syntax**
+
+    - CSS stylesheet
+    - CSS styles
+    - CSS specific properties 
+
+**CSS stylesheet**
 
 ```
 <style>
-<body{
+body{
 color: #FF0000;
 }
 <style>
 ```
 
-**CSS SYNTAX**  
+**CSS styles**  
 
-**A CSS rule-set** consists of a selector and a declaration block, the selector points to the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons. Each declaration includes a **CSS property name and a value**, separated by a colon. A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
+- linking CSS stylesheet
+- setting properties
+- selecting elements
+- units of measurement
+- list styles
+- text styles
+- box behavior
+- resetting styles
 
-![CSS syntax](/images/cssrule.png)
+**CSS specific properties**
 
-**Multiple properties**
-
-```
-body {
-  color: #414141;               /* Dark gray */
-  background-color: #EEEEEE;    /* Light gray */
-}
-```
-
-**Multiple elements**
-
-```
-body {
-  color: #414141;               /* Dark gray */
-  background-color: #EEEEEE;    /* Light gray */
-}
-
-h1 {
-  font-size: 36px;
-}
-
-```
-
-**Selecting multiple elements**
-
-```
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-```
-
-**List styles**
-
-```
-ul {
-  list-style-type: circle;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-```
-
-**Text styles**
-
-- Underlines
-- Text Alignment
-- Font Weight
-- Font Style
-
-
-**The cascade**
-
-- The browser’s default stylesheet
-- User-agent’s stylesheets
-- External stylesheets
-- Page-specific styles
-- Inline styles
-
-
-
-
-**LINKING A CSS STYLESHEET**
-
-```
-<head>
-    <link rel='stylesheet' href=main.css'/>
-</head>
-```
-
-**Multiple stylesheets**
-
-```
-<head>
-  <link rel='stylesheet' href='styles.css'/>
-  <link rel='stylesheet' href='product.css'/>
-</head>
-```
-
-**BLOCK ELEMENTS AND INLINE ELEMENTS**
-
-Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
-
-A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).
-
-An inline element does not start on a new line and only takes up as much width as necessary.
-
-**OTROS**
-
-- content
-- padding 
-- border
+- padding
 - margin
+- border
 
-**GENERIC BOXES**
+**c. CSS selectors**
 
-`<div> </div>`
-
-**RESETING STYLES**
-
-```
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-```
-
-**CSS SELECTORS**
-
-**CSS Specificity**
-
-**CSS COMMENTS**
-```
-/*This is a CSS comment*/
-```
-
-**MEASUREMENT UNITS**
-
-px
-em
+**d. CSS Specificity**
 
 ___
 
