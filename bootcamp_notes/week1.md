@@ -207,7 +207,7 @@ ___
 
 - **Empty elements**
 
-An **empty element** can not have any child nodes, using a closing tag on an empty element is invalid. To identify empty element types review [MDN Empty element glosary](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
+An **empty element** can not have any child nodes, using a closing tag on an empty element is invalid. To identify empty element types review [MDN Empty element glosary](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element).
 
 - **Links**
 
