@@ -10,9 +10,24 @@ body {
 
 .carousel-grid {
 
+/*width: 100 px;*/
+background: grey;
+padding: 50px;
+margin: 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;    
 }
 
-.carousel {
-display:flex;
+.carousel-grid .carousel-item{
+
+background: #ffd54f;    
+margin: 20px;
+border: 10px solid #ffd54f;
+/*padding: 100px;
+margin 20px 10px;*/
+/*width: 200px;
+height: 200px;
+/*margin: 5px;*/
 
 }
