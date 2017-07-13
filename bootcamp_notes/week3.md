@@ -117,11 +117,10 @@ ___
 
 **a. git Flow**
 
-A branch is a division from master repository created to allow people to work on the current project without doing it from master. It means no project session ever tested before is located in master. Commonly, a branch called developer is created to store all changes made to that particular project session and then is merge to the master. Thats why a github structure is refered to a tree, where master represents the root with branches attach to it. Next images represent the tree struscture and a git workflow.
+A branch is a division from master repository created to allow people to work on the current project without doing it from master. It means no project session ever tested before is located in master. Commonly, a branch called developer is created to store all changes made to that particular project session and then is merge to the master. Thats why a github structure is refered to a tree, where master represents the root with branches attach to it. Next image represent a git workflow.
 
-![tree structure](/images/repositorydiagram.png)
+![git workflow](/images/gitflow-orig-diagram.png)  
 
-![git workflow](/images/gitflow-orig-diagram.png)
 
 **b. git Commands**
 
