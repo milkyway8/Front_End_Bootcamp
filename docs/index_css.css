@@ -1,0 +1,39 @@
+.page {
+    background-color: #EBE8E8;
+}
+
+.sidebar{
+    float:left;
+    font-weight: bold;
+    color: white;
+    height: 29.7cm;
+    width: 7.40cm;
+    background-color: #262726;
+}
+
+.header{
+    /*float: right;*/
+    padding: 20px;
+    border: 1px solid red;
+    height: 5cm;
+    font-family: bebas neue;
+    font-style: bold;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2289AC;
+}
+
+/*
+.content {
+  font-family: algerian;
+  font-size: 10px;
+  color: #2289AC;
+}
+*/
+
+
+p.content{
+  font-family: algerian;
+  font-size: 10px;
+  color: #2289AC;
+}
