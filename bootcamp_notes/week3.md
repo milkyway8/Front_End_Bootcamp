@@ -205,8 +205,8 @@ ___
 ___
 **4. CSS Corussel**
 
-![Corussel HTML](/docs/css/flexbox/corusel.html)
-![Corussel CSS](/docs/css/flexbox/corusel.css)
+![Corussel HTML](/docs/css/flexbox/carusel.html)
+![Corussel CSS](/docs/css/flexbox/carusel.css)
 ___
 
 
