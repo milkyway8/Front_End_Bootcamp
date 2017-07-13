@@ -193,8 +193,8 @@ ___
 
 **d. flexbox example**
 
-![Flexbox HTML](docs/css/flexbox/flexbox.html)
-![Flexbox CSS](docs/css/flexbox/flexbox.css)
+![Flexbox HTML](/docs/css/flexbox/flexbox.html)
+![Flexbox CSS](/docs/css/flexbox/flexbox.css)
 
 ___
 **3. Play CSS flexbox game**
@@ -205,8 +205,8 @@ ___
 ___
 **4. CSS Corussel**
 
-![Corussel HTML](docs/css/flexbox/corussel.html)
-![Corussel CSS](docs/css/flexbox/corussel.css)
+![Corussel HTML](/docs/css/flexbox/corussel.html)
+![Corussel CSS](/docs/css/flexbox/corussel.css)
 ___
 
 
