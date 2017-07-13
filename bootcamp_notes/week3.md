@@ -151,6 +151,7 @@ ___
     a. Concepts
     b. Properties for the parent
     c. Properties for the children
+    d. Flexbox example
 ___
 
 **a. Concepts**
@@ -189,6 +190,12 @@ ___
 - **flex:** This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. It is recommended that you use this shorthand property rather than set the individual properties. The short hand sets the other values intelligently. 
 
 - **align self:** It is recommended that you use this shorthand property rather than set the individual properties. The short hand sets the other values intelligently. Note that float, clear and vertical-align have no effect on a flex item. 
+
+**d. flexbox example**
+
+![Flexbox HTML](docs/css/flexbox/flexbox.html)
+![Flexbox CSS](docs/css/flexbox/flexbox.css)
+
 ___
 **3. Play CSS flexbox game**
 ___
@@ -197,6 +204,9 @@ ___
 
 ___
 **4. CSS Corussel**
+
+![Corussel HTML](docs/css/flexbox/corussel.html)
+![Corussel CSS](docs/css/flexbox/corussel.css)
 ___
 
 

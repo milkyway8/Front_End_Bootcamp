@@ -84,6 +84,8 @@ Markdown  s a lightweight markup language with plain text formatting syntax. It 
 **`touch fl`**        |  _make or update a file fl_                  |  |**`up`**              |  _move to previous command_
 **`rm -r d`**         |  _remove directory dir_                      |  |**`down`**            |  _move to next command_
 
+cp -r dir1 dir1
+
 ---
 #### 3. REMOTE REPOSITORY
 ___
