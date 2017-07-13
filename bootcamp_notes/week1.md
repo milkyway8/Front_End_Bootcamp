@@ -233,7 +233,6 @@ ___
 
 ![Friday](/images/friday.png)
 
-___
 ## TOPICS
 
 **1. Basic CSS**
@@ -290,7 +289,7 @@ color: #FF0000;
 
 **c. CSS selectors**
 
-**d. CSS Specificity**
+**d. CSS specificity**
 
 ___
 

@@ -4,8 +4,8 @@
 
 ![Monday](/images/monday.png)
 
-___
-**Topics**
+
+## TOPICS
 
 **1. JSON**  
 **2. DOM**
@@ -118,6 +118,9 @@ ___
 
 ___
 
+**1. gitHub Branching**
+___
+
 **a. git Flow**
 
 A branch is a division from master repository created to allow people to work on the current project without doing it from master. It means no project session ever tested before is located in master. Commonly, a branch called developer is created to store all changes made to that particular project session and then is merge to the master. Thats why a github structure is refered to a tree, where master represents the root with branches attach to it. Next image represent a git workflow.
@@ -142,13 +145,13 @@ ___
 |git pull origin                |
 |git branch -D branch1 branch2  |
 
-
+___
 **2. CSS flexbox**
 
     a. Concepts
     b. Properties for the parent
     c. Properties for the children
-
+___
 
 **a. Concepts**
 
@@ -186,13 +189,15 @@ ___
 - **flex:** This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. It is recommended that you use this shorthand property rather than set the individual properties. The short hand sets the other values intelligently. 
 
 - **align self:** It is recommended that you use this shorthand property rather than set the individual properties. The short hand sets the other values intelligently. Note that float, clear and vertical-align have no effect on a flex item. 
-
+___
 **3. Play CSS flexbox game**
+___
 
 ![CSS flexbox froggy](http://flexboxfroggy.com/)
 
+___
 **4. CSS Corussel**
-
+___
 
 
 
