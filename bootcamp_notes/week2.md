@@ -7,8 +7,325 @@
 
 #### Topics
 
-CSS floats
-Javascript basic introduction
+**1. CSS selector**
+**2. Javascript basic introduction**
+
+___
+**1. CSS floats
+
+    a. Definition
+    b. Code explanation
+___
+
+
+**a. Definition**
+
+Float is a property use in elements to help us define page layout with both, vertical and horizontal flow. It is particurlay use when an image needs to be surrounded by text. 
+
+**b. Code explenation**
+
+**step 1.**
+
+**__HTML__**
+
+```
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Floats</title>
+    <link rel='stylesheet' href='floats.css'/>
+  </head>
+  <body>
+      <div class = 'page'>Page
+          <div class='menu'>Menu</div>
+          <div class='sidebar'>Sidebar</div>
+          <div class='content'>Contet</div>
+          <div class='footer'>Footer</div>  
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+**__CSS__**
+
+```
+/*Resetting styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  height: 100px;
+  background-color: #B2D6FF;    
+}
+
+.sidebar {
+  height: 300px;
+  background-color: #F09A9D;    
+}
+
+.content {
+  height: 500px;
+  background-color: #F5CF8E;    
+}
+
+.footer {
+  height: 200px;
+  background-color: #D6E9FE;    
+}
+```
+___
+**step 2.**
+
+Shrink an element's width
+```
+.sidebar {
+  width: 200px;                 /*added*/
+  height: 300px;
+  background-color: #F09A9D;
+}
+```
+___
+**step 3.**
+
+Floating an element
+tip: a floating element has no size.
+
+```
+.sidebar {
+  float: left;                  /*added*/
+  width: 200px;
+  height: 300px;
+  background-color: #F09A9D;
+}
+```
+___
+**step 4.**
+
+Parent size
+tip: div children take parent's size if not specified
+
+```                             /*added*/
+.page {
+  width: 900px;
+  margin: 0 auto;               /*to center parent*/
+}
+```
+___
+**step 5.**
+
+Floating multiple elements
+tip: footer goes up, beacause sidebar and content are floating and have no size. Additionaly we give content a width.
+
+```
+.content {
+  float: left;                  /*added*/
+  width: 650px;                 /*added*/
+  height: 500px;
+  background-color: #F5CF8E;    
+}
+```
+___
+**step 6.**
+
+After a float
+tip: page is after sidebar and content because they are floating
+```
+.page {
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid tomato;  /*added*/
+}
+```
+___
+**step 7.**
+
+Clearing floats
+
+```
+.footer {
+  clear: both;            /*added*/
+  height: 200px;
+  background-color: #D6E9FE;
+}
+```
+___
+**step 8.**
+
+Header and Footer take the whole horizontal size because they are not delimited any more from page (parent). While page keeps after the floating elements, sidebar and content.
+
+tip: floatings respect content thats why we can see parent's name, called Page.
+
+```
+<body>
+  <div class='menu'>Menu</div>
+
+  <div class='page'>
+    <div class='sidebar'>Sidebar</div>
+    <div class='content'>Content</div>
+  </div>
+
+  <div class='footer'>Footer</div>
+</body>
+```
+___
+**step 9.**
+
+Hiding overflow "gives floating elements a size"
+
+```
+.page {
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;             /*added*/
+  background-color: #EAEDF0;    /*added*/
+}
+```
+___
+**step 10.**
+
+Full bleeded layout
+
+```
+<body>
+  <div class='menu'>Menu</div>
+
+  <div class='container'>                 /*added*/
+    <div class='page'>
+      <div class='sidebar'>Sidebar</div>
+      <div class='content'>Content</div>
+    </div>
+  </div>                                  
+
+  <div class='footer'>Footer</div>
+</body>
+```
+___
+**step 11.**
+
+Full bleeded layout
+
+```
+.page {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+  overflow: hidden;
+  background-color: #EAEDF0;
+}
+```
+___
+**step 12.**
+
+**__HTML__**
+
+Floats for equal width column
+
+```
+<div class='footer'>
+  <div class='column'></div>
+  <div class='column'></div>
+  <div class='column'></div>
+</div>
+```
+
+**__CSS__**
+
+```
+.column {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #B2D6FF;    
+}
+```
+___
+**step 13.**
+
+**__HTML__**
+
+Floats for grids
+
+```
+<div class='footer'>
+  <div class='column'></div>
+  <div class='column'></div>
+  <div class='column'></div>
+  <div class='column'></div>
+  <div class='column'></div>
+  <div class='column'></div>
+</div>
+```
+
+**__CSS__**
+
+```
+.footer {
+  overflow: hidden;
+  background-color: #D6E9FE;
+}
+```
+___
+**step 14.**
+
+Flotas for content
+
+**__HTML__**
+
+```
+<div class='content'>
+  <img src='https://unsplash.it/300' class='article-image'/>
+  <p>lorem120</p>
+</div>
+```
+
+**__CSS__**
+
+```
+.content {
+  padding: 20px;       /* Add this */
+}
+
+.article-image {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+```
+___
+**step 15.**
+
+Hiding overflow for content
+
+**__HTML__**
+
+```
+<div class='column'>
+  <div class='avatar'></div>
+  <h3 class='username'>Jhon Doe</h3>
+  <p class='comment'>lorem25</p>
+</div>
+```
+
+**__CSS__**
+
+```
+
+```
+___
+
 
 
 Una variable es una caja que tiene un nombre empleada para almacenar algun tipo de dato. En javascript hay varios tipos de datos nativos, como numeros, strings, booleano. Javascript no es un lenguaje fuertemente tipado.

@@ -9,6 +9,7 @@
     height: 29.7cm;
     width: 7.40cm;
     background-color: #262726;
+    opacity: 0.5;    
 }
 
 .header{
@@ -22,6 +23,7 @@
     font-size: 30px;
     font-weight: bold;
     color: #2289AC;
+    clear: left;
 }
 
 /*
