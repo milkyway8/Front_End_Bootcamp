@@ -11,23 +11,77 @@ body {
 .carousel-grid {
 
 /*width: 100 px;*/
-background: grey;
-padding: 50px;
-margin: 50px;
+width: 1500;
+border: 2px dashed black;
+background: #9e9e9e;
+/*padding: 20px;  /*wy if it has no padding it seems like it has a tiny one
+margin: 80px;*/
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;    
+justify-content: center;
+
+
+/*align-content: center;*/
 }
 
 .carousel-grid .carousel-item{
+box-shadow: 10px 10px 5px #888888;
+font-family: bebas neue;
+font-weight: bold;
+text-transform: uppercase;
+color: #212121;
 
 background: #ffd54f;    
-margin: 20px;
+margin: 10px;
 border: 10px solid #ffd54f;
-/*padding: 100px;
-margin 20px 10px;*/
-/*width: 200px;
-height: 200px;
-/*margin: 5px;*/
 
+}
+
+.carousel-item img{
+display: block;
+width: 100%;
+user-select:none;
+}
+
+.carousel-item figcapture{
+height: 80px;
+padding: 10px;
+font-size: 14px;
+backgorund: white;
+}
+
+
+.carousel{
+border: 5px dashed rebeccapurple;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.carousel-content .carousel-item{
+display: none;
+}
+
+.carousel-content .carousel-item:first-child{
+display: block;
+}
+
+.carousel-prev,
+.carousel-next {
+font-size:60px;
+/*color:white;*/
+text-shadow: 2px 2px 3px rgb(0,0,0,0.5)
+}
+
+.carousel-next{
+    float:right;
+}
+.carousel-controls{
+    border: 2px solid tomato;
+    width: 50%;
+    position: absolute;
+    min-width: 320px;
+    top: 35%;
+    
 }

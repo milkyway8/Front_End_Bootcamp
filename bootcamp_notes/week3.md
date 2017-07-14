@@ -156,6 +156,8 @@ ___
 
 **a. Concepts**
 
+![Flexbox schema](/images/flexbox.png)
+
 **A flexbox or flexible box** is a new layout form in CSS3. Use of flexbox ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices. For many applications, the flexible box model provides an improvement over the block model in that it does not use floats, nor do the flex container's margins collapse with the margins of its contents.
 
 **Flexbox** consists of **flex containers** (parent) and **flex items** (children). A flex container is declared by setting the display property of an element to either flex (rendered as a block) or inline-flex (rendered as inline). Inside a flex container there is one or more flex items. Flex items are positioned inside a flex container along a flex line. By default there is only one flex line per flex container.
@@ -209,8 +211,38 @@ ___
 ![Corussel CSS](/docs/css/flexbox/carousel.css)
 ___
 
+![Thursday](/images/thursday.pgn)
 
+## TOPICS
 
+**1. Layout techniques review**
+
+    a. floats
+    b. inline-blocks
+    c. flexbox
+    d. css tricks
+
+**2. css carousell**
+
+resetting carousell
+box shadow
+colors
+install font on server
+    
+**a. floats**
+
+floats does not have size, thats why we use clear: floats and override: hidden.
+
+**b. inline-blocks**
+
+Inline elements that has block element properties. display: inline-block.
+center block margin 0 auto.
+center inline. You have to have a block container and then text aling-center.
+vertical-align top.
+
+**c. flexbox**
+
+fontawesome.io/icon
 
 
 
