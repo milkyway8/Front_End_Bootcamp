@@ -222,7 +222,8 @@ ___
     c. flexbox
     d. css tricks
 
-**2. css carousell**
+**2. CSS carousell**
+___
 
 resetting carousell
 box shadow
@@ -243,6 +244,163 @@ vertical-align top.
 **c. flexbox**
 
 fontawesome.io/icon
+
+
+![Friday](/images/friday.png)
+
+## TOPICS
+
+**1. general talk**
+
+kenwheeler.github.io/slick/
+
+huge everbody scrolls
+ux (user experience). cart sorting, focus group.
+ui (user interface)
+
+**2. Advanced position**
+
+    a. positioned elements
+    
+**a. positioned elements**
+
+    - static (Not positioned)
+    - relative
+    - absolute
+    - fixed
+
+__scheme.html example__
+
+commet. 
+descendent selector. class .class ..
+child selector div > span. hijo directo
+
+to have a position the element must have a position value: relative, absolute, or fixed.
+if an element is not position the next position to the body.
+positioning modifies layouts.
+relative positioning
+absolute positioning
+fixed positioning
+
+floats move with scroll
+
+**b. positioned elements for menus**
+
+    - submenus
+
+**2. 
+
+**Libreria para animaciones**
+
+green sock
+velocity
+animate.css
+motion js
+motion graphics ..motion ui
+
+3. realative abslute menus
+z index: it has to have position
+speudo-selector
+transition
+
+**4. responsive design**
+
+css media queries
+
+mobile styles 
+portrait and devices
+
+Mobile fisrt development. Always think on mobile first.
+
+dan abramov.redux.arquitectur para manejo del estado para js.
+
+responsive images
+
+- device dimensions
+- image dimensions
+- device screen resolution
+
+retina screens
+use svg images. width 100%
+responsive png, gif, jpg
+retina optimization image
+
+enable responsive size
+
+![saturday](/images/saturday.png)
+
+## TOPICS
+
+yeoma.io: template generator. Use gulp and grunt gestores de tareas. para ir a produccion hay que minificar codigo y otras tareas. 
+
+modelo vista controlador. todo mvc. todo list.
+crud. create read update delete.
+
+controlador: logica de negocio. comprobar, validar, permisos, tareas. funcion create.
+el servicio se comunica con los controladores.
+model: logica de creacion.
+view: 
+
+local storage. 
+
+**1. Bootstrap framework**
+
+**2. install yeoman**
+
+Discovering generatos. isntalar plantillas de stacks de elementos de front end. instalar template.
+jhipster plantilla de yeoman que utiliza srping mvc y angular.
+spring mvc es un framework de aplicaicones web para java.
+
+npm install -g yo
+npm instal -g generator-webapp
+npm install -g yo generator-webapp. puedo instalar multiples paquetes con espacios.
+npm install -g gulp-cli bower
+
+npm bower. administrador de paquetes.
+
+**3. crear una carpeta llamada bootstrap**
+
+
+yo webapp
+bootstrap
+bootstrap 3
+bdd
+
+**concentremonos en la carpeta app**
+
+gulp server. localhost:9001.
+
+no borrar comentarios porque cargan otras cosas
+
+ <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+imprime cuando usamos un navegador viejo
+
+class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+
+vendor js.1:12 minutos.
+
+borrar div content
+borrar todos los estilos de /styles/main.scss
+
+light reload gulpfile.js --> wathc
+
+**4. bootstrap**
+
+To learn bootstrap go to its documentation.
+
+tiene un sistema de grillas. El objetivo es definir columnas para acceder el contenido. sistema de 12 columnas para bootstrap.
+
+En bootstrap 3. podemos especificar el numero de columnas segun la tecnologia. modile or desktop.
+
+Para empezar sistema de grillas es necesario un contenedor, que puede ser container y container-fluid. 
+
+offsetting columns
+
+**Ejercicio photo grupo** 
 
 
 
