@@ -6,8 +6,6 @@
 }
 
 .page {
-    /*font-size: 0;*/
-    /*border: 1px solid tomato;*/
     background-color: #ebe8e8;
 }
 
@@ -16,39 +14,105 @@
 .rightside {
     display: inline-block;
     vertical-align: top;
-    width: 60%;
+    width: 75%;
     border: 4px solid tomato;
 }
 
 .rightside .header {
     color: #2289ac;
-    font: bold 50px bebas neue;
-    border: 4px solid tomato;
+    font: bold 65px bebas neue;
+    /*border: 4px solid tomato;*/
+    margin: 70px 300px 20px 100px;
 }
 
-a:hover {
-    color: grey;
+.rightside .content {
+    margin: 90px 150px 20px 100px;
+
+}
+
+.rightside .content h {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.rightside .content p {
+    text-align: justify;
+    margin-top: 20px;
 }
 
 /*Leftside page configuration*/
 
 .leftside {
+    display: inline-block;
     color: white;   
     background-color: #272627;
-    display: inline-block;
-    width: 20%;
-    /*border: 4px solid tomato;*/
+    width: 25%;
+}
+
+.portrait img {
+    border: 3px solid white;
+    margin-top: 40px;
+    margin-left: 40px;
+    /*border-radius: 50%;*/
 }
 
 .leftside > div {
-    margin: 30px 30px 60px 30px;
+    margin: 0px 20px 60px 40px;
 }
 
-.leftside h{
+.leftside h {
     text-transform: uppercase;
-    font: bold 15px sans serif;
-    
+    font: bold 20px bebas neue;
 }
+
+.icon-list, .icon-list li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.icon-list {
+    margin-top: 30px;
+    font-family: open sans;
+}
+
+.icon-list span {
+    margin-right: 30px;
+    font-weight: bold;
+    font-size:  
+}
+
+.leftside h::before {
+    content: '\f006'; /*fa-star*/
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    /*float: left*/
+    margin-right: 10px;
+    color: white;
+}
+    
+/*
+.icon-list li:before {
+  content: '\f006'; /* fa-star
+  font-family: 'FontAwesome';
+  font-size: 15px;
+  /*float: left
+  margin-left: -1.5em;
+  margin-right: 20px;
+  color: white;
+}*/
+
+/*li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  content: "\f058";
+  color: green;
+}*/
+
 /*Bottomside page configuration*/
 
 .bottomside {
