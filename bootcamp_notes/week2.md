@@ -7,7 +7,7 @@
 
 #### Topics
 
-**1. CSS selector** 
+**1. CSS selector**  
 **2. Javascript basic introduction**
 
 ___
@@ -22,11 +22,9 @@ ___
 
 Float is a property use in elements to help us define page layout with both, vertical and horizontal flow. It is particurlay use when an image needs to be surrounded by text. 
 
-**b. Code explenation**
+**b. Code explanation**
 
-**step 1.**
-
-**__HTML__**
+_**STEP 1. HTML**_
 
 ```
 <!DOCTYPE html>
@@ -48,7 +46,7 @@ Float is a property use in elements to help us define page layout with both, ver
 </html>
 ```
 
-**__CSS__**
+**_STEP 1. CSS_**
 
 ```
 /*Resetting styles*/
@@ -79,9 +77,9 @@ Float is a property use in elements to help us define page layout with both, ver
 }
 ```
 ___
-**step 2.**
+_**STEP 2.**_
 
-Shrink an element's width
+**Shrink an element's width**
 ```
 .sidebar {
   width: 200px;                 /*added*/
@@ -90,10 +88,10 @@ Shrink an element's width
 }
 ```
 ___
-**step 3.**
+_**STEP 3.**_
 
-Floating an element
-tip: a floating element has no size.
+**Floating an element  
+tip:** a floating element has no size.
 
 ```
 .sidebar {
@@ -104,10 +102,10 @@ tip: a floating element has no size.
 }
 ```
 ___
-**step 4.**
+_**STEP 4.**_
 
-Parent size
-tip: div children take parent's size if not specified
+**Parent size  
+tip:** div children take parent's size if not specified
 
 ```                             /*added*/
 .page {
@@ -116,10 +114,10 @@ tip: div children take parent's size if not specified
 }
 ```
 ___
-**step 5.**
+_**STEP 5.**_
 
-Floating multiple elements
-tip: footer goes up, beacause sidebar and content are floating and have no size. Additionaly we give content a width.
+**Floating multiple elements  
+tip:** footer goes up, beacause sidebar and content are floating and have no size. Additionaly we give content a width.
 
 ```
 .content {
@@ -130,10 +128,10 @@ tip: footer goes up, beacause sidebar and content are floating and have no size.
 }
 ```
 ___
-**step 6.**
+_**STEP 6.**_
 
-After a float
-tip: page is after sidebar and content because they are floating
+**After a float  
+tip:** page is after sidebar and content because they are floating
 ```
 .page {
   width: 900px;
@@ -142,9 +140,9 @@ tip: page is after sidebar and content because they are floating
 }
 ```
 ___
-**step 7.**
+_**STEP 7.**_
 
-Clearing floats
+**Clearing floats**
 
 ```
 .footer {
@@ -154,11 +152,10 @@ Clearing floats
 }
 ```
 ___
-**step 8.**
+_**STEP 8.**_
 
-Header and Footer take the whole horizontal size because they are not delimited any more from page (parent). While page keeps after the floating elements, sidebar and content.
-
-tip: floatings respect content thats why we can see parent's name, called Page.
+**Header and Footer take the whole horizontal size because they are not delimited any more from page (parent). While page keeps after the floating elements, sidebar and content.  
+tip:** floatings respect content thats why we can see parent's name, called Page.
 
 ```
 <body>
@@ -173,9 +170,9 @@ tip: floatings respect content thats why we can see parent's name, called Page.
 </body>
 ```
 ___
-**step 9.**
+_**STEP 9.**_
 
-Hiding overflow "gives floating elements a size"
+**Hiding overflow "gives floating elements a size"**
 
 ```
 .page {
@@ -186,9 +183,9 @@ Hiding overflow "gives floating elements a size"
 }
 ```
 ___
-**step 10.**
+_**STEP 10.**_
 
-Full bleeded layout
+**Full bleeded layout**
 
 ```
 <body>
@@ -205,9 +202,9 @@ Full bleeded layout
 </body>
 ```
 ___
-**step 11.**
+_**STEP 11.**_
 
-Full bleeded layout
+**Full bleeded layout**
 
 ```
 .page {
@@ -221,9 +218,7 @@ Full bleeded layout
 }
 ```
 ___
-**step 12.**
-
-**__HTML__**
+**_STEP 12. HTML_**
 
 Floats for equal width column
 
@@ -235,7 +230,7 @@ Floats for equal width column
 </div>
 ```
 
-**__CSS__**
+**_STEP 12. CSS_**
 
 ```
 .column {
@@ -247,11 +242,9 @@ Floats for equal width column
 }
 ```
 ___
-**step 13.**
+**_STEP 13. HTML_**
 
-**__HTML__**
-
-Floats for grids
+**Floats for grids**
 
 ```
 <div class='footer'>
@@ -264,7 +257,7 @@ Floats for grids
 </div>
 ```
 
-**__CSS__**
+**_STEP 13. CSS_**
 
 ```
 .footer {
@@ -273,11 +266,9 @@ Floats for grids
 }
 ```
 ___
-**step 14.**
+_**STEP 14. HTML**_
 
-Flotas for content
-
-**__HTML__**
+**Floats for content**
 
 ```
 <div class='content'>
@@ -286,7 +277,7 @@ Flotas for content
 </div>
 ```
 
-**__CSS__**
+_**STEP 14. CSS**_
 
 ```
 .content {
@@ -305,11 +296,11 @@ p {
 }
 ```
 ___
-**step 15.**
+_**STEP 15. HTML**_
 
-Hiding overflow for content
+**Hiding overflow for content**
 
-**__HTML__**
+
 
 ```
 <div class='column'>
@@ -319,7 +310,7 @@ Hiding overflow for content
 </div>
 ```
 
-**__CSS__**
+_**STEP 15. CSS**_
 
 ```
 avatar {
@@ -345,19 +336,12 @@ ___
 
 **2. Javascript basic introduction**
 
-Una variable es una caja que tiene un nombre empleada para almacenar algun tipo de dato. En javascript hay varios tipos de datos nativos, como numeros, strings, booleano. Javascript no es un lenguaje fuertemente tipado.
+    a. Codes
+    b. Random
+___
 
-Un algoritmo es una receta para realizar determinada tarea.
-Una funcion es una maquina que recibe una entrada y arroja una salida.
+**a. CODES**
 
-
-**Code**
-
-`type of var` gives the var type  
-`var suma = 2 + 5` make operations within the declaration  
-`var a` undefined variable  
-`var lista = []` define an array  
-define an object
 ```
 var human = {
     eyes: "blue",
@@ -404,23 +388,34 @@ var humano = {
 `humano.sumar(3,6)`  
 `humano.caminar()`
 
-**RANDOM CONCEPTS**
+**b. RANDOM CONCEPTS**
 
-1. About Scrum
-2. [Flexbox froggy](http://flexboxfroggy.com/) CSS game related to floats
-
-
-![Wednesday](/images/wednesday.png)
-___
-
-#### Topics
-
-- Javascript in depth
-- Random Concepts
+**1. About Scrum**  
+**2. [Flexbox froggy](http://flexboxfroggy.com/) CSS game related to floats**
 
 ---
 
-**JAVASCRIPT IN DETH:** the current class session is related to the explanation of different kind of structures and statements allowed in javascript to perform a particular task, in some cases there are code examples attach to them. This information is based on [**_Kyle Simpson's book series You Dont Know JS_**](https://github.com/getify/You-Dont-Know-JS).
+
+![Wednesday](/images/wednesday.png)
+
+
+#### TOPICS
+
+**1. Javascript in depth**  
+    
+    a. Concepts
+    b. Codes
+    c. Bank account exercise
+    
+**2. Random Concepts**
+
+---
+
+**1. JAVASCRIPT IN DETH**
+
+**a. Concepts**
+
+The current class session is related to the explanation of different kind of structures and statements allowed in javascript to perform a particular task, in some cases there are code examples attach to them. This information is based on [**_Kyle Simpson's book series You Dont Know JS_**](https://github.com/getify/You-Dont-Know-JS).
 
 
 - _Variable declaration_
@@ -435,13 +430,13 @@ ___
 - _Blocks_
 - _Statements_
 - _Cycles_
-- _Scope_Objeto window
+- _Scope_
 - _Objects_
 - _Closure_
 - _setTimeOut function_
 
 
-**Codes**
+**b. Codes**
 
 >functions and if statement
 
@@ -517,27 +512,12 @@ setTimeout(function(x) { return function() { console.log(x); }; }(i), 1000);
 }
 ```
 
-Exercise
+**c. Exercise**
 
-```
-function imprimirBalance(balance){  
-// Imprimir balance 
-} 
-function retirarDinero(dinero){
-// Solo puede retirar dinero si es menor que el balance 
-} 
-function transferir(balance, balance2){
-// transferir balance a otro balance2 
-}
-function imprimirBalance2 (balance2){
-// Imprimir el balance2 
-}
-function retirarTodoMiDinero(){
-// Retirar de 100 en 100
-}
-```
+Bank account exercise
+___
 
-**RAMDON CONCEPTS**
+**2. RANDOM CONCEPTS**
 
 - _Speudocode_
 - _API's_
@@ -547,8 +527,10 @@ function retirarTodoMiDinero(){
 - _Javascript in HTML_: javscript se incluye en html con un tag que se llama script y se pasa al    src, incluirlo  antes del   cuerpo. minuto 1:45. audio. Document object model: modificar          estilos desde javasrcipt.
 - _EMAscript browser supported versions_
 
+___
+
 ![Thursday](/images/thursday.png)
----
+
 
 ## TOPICS
 
@@ -650,10 +632,12 @@ llamarCallback(console.log);
 **3. Javascripting**
 
 Javascripting is a library we install with the bash command `npm install -g javascripting`, and it contains a workshop dedicated to teach javascript through different games. To see more workshops go to [nodeschool](https://nodeschool.io/).
-    
+
+---
+
 #![Friday](/images/friday.png)
 
-### Topics
+### TOPICS
 
 **1. Finish the javacripting challenge**  
 **2. Semantic HTML**
@@ -672,8 +656,7 @@ Javascripting is a library we install with the bash command `npm install -g java
 
 **3. Exercise 7**
 
-
- **7. Rewrite you HTML CV code into a Semantic HTML code**
+Rewrite you HTML CV code into a Semantic HTML code**
  ___
  
   
@@ -684,7 +667,7 @@ Javascripting is a library we install with the bash command `npm install -g java
 **1. Forms**
 ___
 
-# FOMRS
+**1. Forms**
 
 - DAY 4. html syntax review.
 - HTML Forms
@@ -721,4 +704,7 @@ play flex box froggy
 - html contact formulary
 - url webtask en el form action, get the query parameters, context.data. query
 - look for webtask query parameters
-  
+
+---
+
+![Bootcamp Header](/images/bootcamp_header.png)
