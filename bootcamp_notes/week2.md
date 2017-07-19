@@ -635,7 +635,7 @@ Javascripting is a library we install with the bash command `npm install -g java
 
 ---
 
-#![Friday](/images/friday.png)
+![Friday](/images/friday.png)
 
 ### TOPICS
 

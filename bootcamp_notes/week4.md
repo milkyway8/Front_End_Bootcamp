@@ -141,5 +141,61 @@ $(function(){
 
 dashboard templates
 
+___
+
+![wednesday](/images/wednesday.jpg)
+
+## TOPICS (almost done)
+
+**1. SASS**
+    
+    - css preprocessor: code compiled at the end.
+    - node sass: to make sass compilation.
+    - npm instal -g node sass
+    - you can do nesting but not in css
+    - syntaxis css con llaves, sass sin llaves
+    - color name: http://chir.ag/projects/name-that-color/#6195ED
+    - not charged file: /_modules/... just when imported. http://soyfrontend.com/import-parciales-sass/
+    - made a file for each topic: colors, responsive, and main styles: _color.scss, _responsive.scss, main.scss
+    - @import 'file' to import a file into the project.
+    - node sass a folder
+    - mixin
+    - sass-lang.com/guide
+    - You always use a preprocessor not css
+    - https://sass-guidelin.es
+    - stylus-lang.com
+    - lesscss.org
+
+
+**2. BEM**
+
+    - how to name things. Block, Element & Modifier
+    - & operator let me refer to the latest selection. https://css-tricks.com/the-sass-ampersand/
+    - guillo. cuando hago speudoselectores or speudoelements.
+    - smashing magazine. page to learn about ti.
+    
+**3. SMACSS**
+
+    - https://smacss.com/book/type-layout
+    - sacssdirector.com
+    - architecture methodologies. how to organize our css.
+    - other sweetcss, oocss, atomic css.
+    - disegn patterns.
+    - use solo classes in css
+    
+    
+    - structures
+
+
+
+
+
+
+
+
+
+
+
+
 
 
