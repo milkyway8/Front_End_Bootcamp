@@ -7,11 +7,11 @@
 
 #### Topics
 
-**1. CSS selector**
+**1. CSS selector** 
 **2. Javascript basic introduction**
 
 ___
-**1. CSS floats
+**1. CSS floats**
 
     a. Definition
     b. Code explanation
@@ -343,12 +343,15 @@ avatar {
 ```
 ___
 
-
+**2. Javascript basic introduction**
 
 Una variable es una caja que tiene un nombre empleada para almacenar algun tipo de dato. En javascript hay varios tipos de datos nativos, como numeros, strings, booleano. Javascript no es un lenguaje fuertemente tipado.
 
 Un algoritmo es una receta para realizar determinada tarea.
 Una funcion es una maquina que recibe una entrada y arroja una salida.
+
+
+**Code**
 
 `type of var` gives the var type  
 `var suma = 2 + 5` make operations within the declaration  
@@ -546,7 +549,8 @@ function retirarTodoMiDinero(){
 
 ![Thursday](/images/thursday.png)
 ---
-**Topics**
+
+## TOPICS
 
 **1. Bootcamp classes review**  
 **2. Last class review**  
@@ -560,6 +564,8 @@ We accessed teacher's trello account and saw the bootcamp schedule.
 **2. Last class review**
 
 We took a look to closures and the setTimeOut function, and saw some code.
+
+**CODE**
 
 Assign a function to a variable
 
@@ -652,24 +658,31 @@ Javascripting is a library we install with the bash command `npm install -g java
 **1. Finish the javacripting challenge**  
 **2. Semantic HTML**
 
-- The document outline
-- Article
-- Section
-- Nav element
-- Headers
-- Footers
-- Asides
-- Divs for layout
-- Dates and times
-- Address
-- Figures and captions  
+    - The document outline
+    - Article
+    - Section
+    - Nav element
+    - Headers
+    - Footers
+    - Asides
+    - Divs for layout
+    - Dates and times
+    - Address
+    - Figures and captions  
 
 **3. Exercise 7**
 
 
  **7. Rewrite you HTML CV code into a Semantic HTML code**
+ ___
+ 
   
 ![Saturday](/images/saturday.png)
+
+## TOPICS
+
+**1. Forms**
+___
 
 # FOMRS
 
