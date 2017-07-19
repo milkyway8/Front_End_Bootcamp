@@ -51,11 +51,13 @@
     width: 25%;
 }
 
+/*Leftside componenets*/
+
 .portrait img {
     border: 3px solid white;
     margin-top: 40px;
     margin-left: 40px;
-    /*border-radius: 50%;*/
+    border-radius: 0%;
 }
 
 .leftside > div {
@@ -64,55 +66,64 @@
 
 .leftside h {
     text-transform: uppercase;
-    font: bold 20px bebas neue;
+    font: bold 30px bebas neue;
 }
 
-.icon-list, .icon-list li {
-    padding: 0;
+.contact, .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-left-list, .contact-left-list li, 
+.contact-right-list, .contact-right-list li,
+.info-left-list, .info-left-list li,
+.info-right-list, .info-right-list li
+.hobbies-list, .hobbies-list li {
     margin: 0;
+    padding: 0;
     list-style: none;
 }
 
-.icon-list {
-    margin-top: 30px;
-    font-family: open sans;
+.contact, .info, .hobbie, .link {
+    margin: 30px 0px 60px 0px;
+    /*border: 1px solid tomato;*/
 }
 
-.icon-list span {
-    margin-right: 30px;
+.contact-left-list li, .info-left-list li{
     font-weight: bold;
-    font-size:  
 }
+
+.link {
+    display: flex;
+    /*flex-wrap: nowrap;*/
+    justify-content: space-around;
+}
+
+.link span {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+/*.link {
+    position: absolute;
+}
+
+.link span1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}*/
 
 .leftside h::before {
     content: '\f006'; /*fa-star*/
     font-family: 'FontAwesome';
-    font-size: 15px;
+    font-size: 25px;
     /*float: left*/
     margin-right: 10px;
     color: white;
 }
     
-/*
-.icon-list li:before {
-  content: '\f006'; /* fa-star
-  font-family: 'FontAwesome';
-  font-size: 15px;
-  /*float: left
-  margin-left: -1.5em;
-  margin-right: 20px;
-  color: white;
-}*/
-
-/*li:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: FontAwesome;
-  content: "\f058";
-  color: green;
-}*/
-
 /*Bottomside page configuration*/
 
 .bottomside {

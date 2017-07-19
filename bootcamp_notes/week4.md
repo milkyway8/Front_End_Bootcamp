@@ -88,3 +88,55 @@ css specificity table
 warning: LF will be replaced by CRLF in bootstrap/app/index.html.
 The file will have its original line endings in your working directory.
 ```
+
+**5. Bootstrap getting started**
+
+    - getting started to use bootstrap cdn & styles min
+    - cdn by maxCDN
+    - responsive videos
+
+**6. jQuery**
+
+**jQuery:** is a DOM library. There are certain things that are easier to made using jQuery instead of DOM.
+
+**The cascade:** till a process is done charging, it does not charge more.
+
+**$ sign means jQuery**
+**bootstrap uses jQuery**
+
+`$('Select in jQuery')`
+jqfundamentals.com/chapter/jquery-basics
+
+basic functionalities
+
+$('')
+$('body').children
+$('body').children.('container').children('h1')
+
+jQuery properties
+
+api.jquery.com
+
+antes seleccionar por clase o por id
+
+Category: transversing
+Category: manipulation
+
+$('h1').attr('style' 'background-color: red')
+pass an json object
+$('h1').offset()
+
+**if im using bootstrap and need to use more than styles we need jQuery**
+
+- getbootstrap.com/javascript/#modals
+
+$(function(){
+
+});
+
+- dashboard app
+
+dashboard templates
+
+
+
