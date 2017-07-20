@@ -181,10 +181,13 @@ ___
     - architecture methodologies. how to organize our css.
     - other sweetcss, oocss, atomic css.
     - disegn patterns.
-    - use solo classes in css
-    
-    
+    - use solo classes in css   
     - structures
+    
+**4. begin dashboard**
+
+    - Images on slack
+    
 
 
 

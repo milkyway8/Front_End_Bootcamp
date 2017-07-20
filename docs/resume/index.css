@@ -34,12 +34,33 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .rightside .content p {
     text-align: justify;
     margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*Content list cleaning*/
+
+.education-list, .education-list li,
+.job-list, .job-list li,
+.quality-list, .quality-list li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.education-list span, .job-list span, .quality-list li {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.education-list, .job-list, .quality-list {
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 /*Leftside page configuration*/
@@ -95,8 +116,8 @@
 }
 
 .link {
+    border: 2px solid tomato;
     display: flex;
-    /*flex-wrap: nowrap;*/
     justify-content: space-around;
 }
 
@@ -104,16 +125,6 @@
     cursor: pointer;
     font-size: 30px;
 }
-
-/*.link {
-    position: absolute;
-}
-
-.link span1 {
-    position: relative;
-    top: 10px;
-    left: 10px;
-}*/
 
 .leftside h::before {
     content: '\f006'; /*fa-star*/
