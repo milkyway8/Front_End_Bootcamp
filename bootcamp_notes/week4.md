@@ -188,10 +188,45 @@ ___
 
     - Images on slack
     
+![friday](/images/friday.png)
 
+## TOPICS
 
+**1. Last class review**
 
+    a. SASS, BEM & SMACSS importance.
+    b. modular code.
+    c. polifier. Library that makes function old browser technologies.
+    
+**2. javasrcript: functional**
 
+    - To avoid **side effects**
+    - **Pure functions** are functions that doesnt modify the state.
+    - Immutablity: let & const 
+    - map: transformation.
+    - filter.
+    - reduce: combining.
+    
+![saturday](/images/saturday.png)
+
+## TOPICS
+
+**1. let & const review**
+
+**2. javascript functional review**
+    
+**2. Enmascript 2015**
+    
+    - compatibility
+    - template literal
+    - arrow function: doesnt have context
+    - spread operator
+    - rest parameters
+    - destructuring
+    - babel
+
+https://css-tricks.com/lets-learn-es2015/
+https://www.codewars.com/
 
 
 
